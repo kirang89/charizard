@@ -1,4 +1,4 @@
 DevSetup
 ========
 
-Setting up my development environment
+Scripts for automating the setup of my development environment.
