@@ -2,7 +2,8 @@
 # My Dev Setup for Ubuntu
 #
 
-#
+echo "Installing Vim"
+sudo apt-get install vim
 
 echo "Installing Git"
 sudo apt-get install git-core
@@ -34,5 +35,10 @@ echo "Installing Sublime Text 2"
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
 sudo apt-get update
 sudo apt-get install sublime-text-2-dev
+
+echo "Installing Everpad"
+sudo add-apt-repository ppa:nvbn-rm/ppa
+sudo apt-get update
+sudo apt-get install everpad
 
 
