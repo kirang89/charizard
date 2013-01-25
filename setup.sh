@@ -9,9 +9,10 @@ echo "Installing Git"
 sudo apt-get install git-core
 
 echo "Installing Mysql Server"
-sudo apt-get install mysql-server
+sudo apt-get install mysql-server mysql-client
 
 echo "Installing PyStuff"
+sudo apt-get install python-dev
 sudo apt-get install python-pip
 sudo apt-get install libmysqlclient18
 sudo apt-get install python-mysqldb
@@ -40,5 +41,3 @@ echo "Installing Everpad"
 sudo add-apt-repository ppa:nvbn-rm/ppa
 sudo apt-get update
 sudo apt-get install everpad
-
-
