@@ -16,6 +16,7 @@ sudo apt-get install python-dev
 sudo apt-get install python-pip
 sudo apt-get install libmysqlclient18
 sudo apt-get install python-mysqldb
+sudo apt-get install python-gevent
 chmod +x py_setup.sh
 ./py_setup.sh
 
