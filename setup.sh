@@ -42,3 +42,6 @@ echo "Installing Everpad"
 sudo add-apt-repository ppa:nvbn-rm/ppa
 sudo apt-get update
 sudo apt-get install everpad
+
+echo "Installing htop"
+sudo apt-get install htop
