@@ -10,11 +10,9 @@ something.
 ##Running
 
 ```sh
-
 sudo chmod +x workspace_setup.sh
 ./workspace_setup.sh
-
-``
+```
 
 ##Contributing
 
