@@ -36,7 +36,7 @@ sudo apt-get install curl
 echo "Installing Sublime Text 2"
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
 sudo apt-get update
-sudo apt-get install sublime-text-2-dev
+sudo apt-get install sublime-text-2
 
 echo "Installing Everpad"
 sudo add-apt-repository ppa:nvbn-rm/ppa
@@ -45,3 +45,6 @@ sudo apt-get install everpad
 
 echo "Installing htop"
 sudo apt-get install htop
+
+echo "Installing ZSH"
+sudo apt-get install zsh
