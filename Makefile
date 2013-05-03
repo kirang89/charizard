@@ -33,12 +33,18 @@ python_env:
 	echo "> =====================Python Workspace Setup completed======================"
 
 ruby_env:
-	echo "> Setting up Ruby workspace"
 
+	echo "> Setting up Ruby workspace"
 	sudo sh ruby/ruby_workspace.sh
 	echo "> Installing Octopress"
 	sudo sh ruby/octopress.sh
 	echo "> =====================Ruby Workspace Setup completed======================"
+
+go_env:
+	echo "> Setting up Go workspace"
+
+	sudo sh Go/golang.sh
+	echo "> =====================Go Workspace Setup completed======================"
 
 ohmyzsh:
 	echo "> Setting up oh-my-zsh"
