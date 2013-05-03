@@ -1,5 +1,7 @@
 #Charizard
 
+![Charizard](http://www.mediafire.com/convkey/f2fd/a6pwp725zwb8bi86g.jpg)
+
 ##Overview
 Development Workspace automation bot.
 
