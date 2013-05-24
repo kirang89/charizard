@@ -36,3 +36,7 @@ sudo apt-get install htop
 
 echo "Installing XChat"
 sudo apt-get install xchat
+
+echo "Installing Geary mail"
+sudo add-apt-repository ppa:yorba/ppa
+sudo apt-get update && sudo apt-get install geary
