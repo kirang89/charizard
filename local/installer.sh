@@ -22,14 +22,10 @@ echo "Installing Curl"
 sudo apt-get install curl
 
 echo "Installing Sublime Text 2"
-sudo add-apt-repository ppa:webupd8team/sublime-text-2
-sudo apt-get update
-sudo apt-get install sublime-text-2
+sudo sh sublimetext2.sh
 
 echo "Installing Everpad"
-sudo add-apt-repository ppa:nvbn-rm/ppa
-sudo apt-get update
-sudo apt-get install everpad
+sudo sh everpad.sh
 
 echo "Installing htop"
 sudo apt-get install htop
@@ -38,5 +34,10 @@ echo "Installing XChat"
 sudo apt-get install xchat
 
 echo "Installing Geary mail"
-sudo add-apt-repository ppa:yorba/ppa
-sudo apt-get update && sudo apt-get install geary
+sudo sh geary.sh
+
+echo "Installing VPNOneClick"
+sudo sh vpn.sh
+
+echo "Installing Spotify"
+sudo sh spotify.sh

@@ -7,13 +7,13 @@ no_targets__:
 list:
 	@grep '^[^#[:space:]].*:' Makefile | grep -Ev 'no_targets__:|list:'
 
-all: ub_env, java_env, python_env, ruby_env, ohmyzsh
+all: install-local, install-java, install-python, install-ruby, install-ohmyzsh
 
 install-local:
 	echo "> Setting up local ubuntu environment"
 
 	echo "> Installing apt packages"
-	sudo sh local/packages.sh
+	sudo sh local/installer.sh
 	echo "> Setting up aliases"
 	cat local/aliases.sh >> ~/.bashrc
 
